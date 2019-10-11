@@ -4,7 +4,9 @@ This script uses falconsw/btcturk API library. You need PHP host & BTCTurk accou
 
 BTCTürk Order/Withdraw/Deposit RSS Feed v1.0
 
-Credits: CryptoYakari https:/twitter.com/CryptoYakari & falconsw https://github.com/falconsw/btcturk
+Credits: 
+CryptoYakari https:/twitter.com/CryptoYakari
+falconsw https://github.com/falconsw/btcturk
 
 Requirements
 -------------
@@ -29,6 +31,7 @@ CrptoYakari Donation Address:
 * BTC: 1GEK7JKqDgvcUGCMaGCfs6TvqRLnU3MVc5
 
 falconsw Donation Addresses:
+
 If you find this library to your liking and enjoy using it, please consider a donation to one of the following addresses:
 * BTC: 3BCC4zNHhEyS38kEBVSDcj4MDZpnanwEUD
 * ETH: 0x0d57c1535b90cebaa8b2c6aa0cff5d7f20e7a75d

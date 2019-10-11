@@ -1,33 +1,20 @@
-## BtcTurk Php Api Client
+## BTCTurk Order/Withdraw/Deposit RSS Feed
 
-Bu Api ile Neler Yapılır ?
--------------
+This script uses falconsw/btcturk API library. You need PHP host & BTCTurk account in order to use this script.
 
-	- [x] BTC ve ETH Anlık Fiyat bilgisi alınabilir.
-    - [x] BTC alış ve satışlardaki değerler görüntülenebilir.
-    - [x] BTC market geçmişi görüntülenebilir.
-    - [x] Günlük BTC fiyat grafiği mumlarına erişilebilir.
-    - [x] Kullanıcı Trade geçmişi görüntülenebilir.
-    - [x] Açık Trade İşlemleri görüntülenebilir.
-    - [x] TL, BTC ve ETH bakiyeleri görüntülenebilir.
-    - [x] İşlem iptali yapılabilir.
-    - [x] BTC ve ETH alışı, satışı yapılabilir.
-    - [x] Alış ve Satışta : Market , Limit ve Stop Özelliği kullanılabilir.
-
-
-> English Document
-
-
-PHP wrapper class for Btcturk API 
--------------
-
-This class is a wrapper for the Btcturk trader platform API (https://www.btcturk.com/api).
-You can use it to check market values, do tradings with your wallet,  write your own trading bot, etc
+BTCTürk Order/Withdraw/Deposit RSS Feed v1.0
+Credits: CryptoYakari @CryptoYakari & falconsw https://github.com/falconsw/btcturk
 
 Requirements
 -------------
-* You obviously need a btcturk account.
-* You need to create an API key on your account settings
+PHP Host + BTCTurk Account
+Demo Page: https://robostopia.com/btcturk/
+
+This script generates an RSS Feed for your latest BTCTürk Order/Withdraw/Deposit
+You can use this RSS feed with IFTTT.com and easily integrate to your BTCTurk account. Like:
+
+RSS -> Telegram or RSS->Email
+Once your order completed you will get notification.
 
 Usage 
 -------------
@@ -35,54 +22,12 @@ Usage
 	$key = 'PUBLIC_KEY'; // use your key and secret
 	$secret = 'PRIVATE_KEY';
 
-	$b = new Client ($key, $secret);
-	
-	$list = $b->getBalances();
-
-
-
-
-> Türkçe Döküman
-
-
-PHP Btcturk API Class
--------------
-
-Bu Class Btcturk Api Sistemi İçin yapılmıştır (https://www.btcturk.com/api).
-Piyasa değerlerini kontrol etmek, bakiyeniz ile ticaret yapmak, kendi ticaret botunuzu yazmak vs. için kullanabilirsiniz.
-
-
-Gereksinimler
--------------
-
-* Bir Btcturk Hesabı olması.
-* Hesap > Api Erişimi kısmından bir Api hesabı oluşturmak
-
-Kullanımı
--------------
-
-	$key = 'PUBLIC_KEY'; // public ve private keylerini kullan
-	$secret = 'PRIVATE_KEY';
-
-	$b = new Client ($key, $secret);
-	
-	$list = $b->getBalances();
-
-
-[Issue](https://github.com/falconsw/btcturk/issues)
-
-[Source](https://github.com/BTCTrader/broker-api-docs)
-
-[coinfono.com](https://coinfono.com)
-
-License
------
-
-BtcTurk-Api is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
-
 Donations/Support
 -----
+CrptoYakari Donation Address: 
+* BTC: 1GEK7JKqDgvcUGCMaGCfs6TvqRLnU3MVc5
 
+falconsw Donation Addresses:
 If you find this library to your liking and enjoy using it, please consider a donation to one of the following addresses:
 * BTC: 3BCC4zNHhEyS38kEBVSDcj4MDZpnanwEUD
 * ETH: 0x0d57c1535b90cebaa8b2c6aa0cff5d7f20e7a75d

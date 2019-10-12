@@ -4,7 +4,7 @@
 
 This script uses falconsw/btcturk API library. You need PHP host & BTCTurk account in order to use this script.
 
-BTCTürk Order/Withdraw/Deposit RSS Feed v1.0
+BTCTurk Order/Withdraw/Deposit RSS Feed v1.0
 
 Credits: 
 CryptoYakari https://twitter.com/CryptoYakari
@@ -16,7 +16,7 @@ Requirements
 PHP Host + BTCTurk Account
 Demo Page: https://robostopia.com/btcturk/
 
-This script generates an RSS Feed for your latest BTCTürk Order/Withdraw/Deposit
+This script generates an RSS Feed for your latest BTCTurk Order/Withdraw/Deposit
 You can use this RSS feed with IFTTT.com and easily integrate to your BTCTurk account. Like:
 
 RSS -> Telegram or RSS->Email

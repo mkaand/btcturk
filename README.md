@@ -1,5 +1,4 @@
-## This is old version of my code. BTCTurk API will be change soon. Please use new version:
-https://github.com/mkaand/BTCTurkPRO-RSSFeed
+## This is old version of my code. BTCTurk API will be change soon. Please use new version: https://github.com/mkaand/BTCTurkPRO-RSSFeed
 
 ## BTCTurk Order/Withdraw/Deposit RSS Feed v1.0
 

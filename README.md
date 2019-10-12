@@ -1,4 +1,7 @@
-## BTCTurk Order/Withdraw/Deposit RSS Feed
+#THis is old version of my code. BTCTurk API will be change soon. Please use new version:
+https://github.com/mkaand/BTCTurkPRO-RSSFeed
+
+## BTCTurk Order/Withdraw/Deposit RSS Feed v1.0
 
 This script uses falconsw/btcturk API library. You need PHP host & BTCTurk account in order to use this script.
 
